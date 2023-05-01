@@ -1,0 +1,41 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+font-family: sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  line-height: 1;
+  font-family: sans-serif;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 10px ;
+  margin-left: 20px;
+  margin-right: 70px;
+}
+
+h1{
+  color: red;
+  font-style: oblique;
+}
+
+input{
+  padding:10px 15px;
+  margin:40px 0px;
+  border-radius: 10px;
+  border:2px solid black;
+  
+}
+h4,h3{
+  color: white;
+}
