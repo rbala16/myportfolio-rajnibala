@@ -1,28 +1,15 @@
-*{
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-font-family: sans-serif;
-}
-  
+
+  /*Home page styling  */
 .main{
-  height:110vh;
-  width: 100%;
+  
+ 
   background-image: url(background.jpeg);
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
 
-
 }
-nav{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 30px 10px ;
-  margin-left: 20px;
-  margin-right: 70px;
-}
+/*logo of the website  */
 .logo{
   color: white;
   font-size: 40px;
@@ -37,6 +24,7 @@ span {
 
 
 }
+/* navigation bar styling starts here */
 nav ul li{
   list-style-type:none;
   display:inline-block;
@@ -65,12 +53,14 @@ border-radius: 15px;
 ;
 
 }
+/* home page content styling */
 .content{
   border: 5px black solid;
-  height:90vh;
-  margin:40px;
+height: 100%;
+  margin:60px;
+
 padding:100px;
-position: relative;
+
 line-height: 60px;
 word-spacing: 10px;
 letter-spacing: 2px;
@@ -78,20 +68,13 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
 font-style: italic;
 border-radius: 20px;
 background-color: black;
-opacity:0.6;}
-
-h1{
-  color: red;
-  font-style: oblique;
+opacity:0.6;
 }
 
-input{
-  padding:10px 15px;
-  margin:40px 0px;
-  border-radius: 10px;
-  border:2px solid black;
-  
-}
+
+
+
+
 #btn{
   border-radius: 10px;
   border:2px solid red;
@@ -105,50 +88,53 @@ font-size: 15px;
   color: red;
   font-style: italic;
 }
-h4,h3{
-  color: white;
-}
 
-/* .about-me{
-  margin:100px;
-  letter-spacing: 1px;
-  word-spacing: 4px;
-  padding:10px;
-  display: flex;
-} */
+/* About page styling starts here */
+
 .about{
-  width: 100%;
-  padding: 100px 0px;
-  background-color: antiquewhite;
+ padding:20px;
+  
+  background-color: bisque;
+ 
 
 }
+
 .about img{
   height:auto;
-  width:430px;
+  width:400px;
+position:relative;
+border:1px solid black;
+border-radius: 10px;
+
+
 
 }
+/* about page text styling */
 .about-me{
-width: 550px;
-margin-left: 40px;
+
+padding:49px;
+
+text-align: center;
 }
-.main-two{
-  width: 1130px;
-  max-width: 95%;
-  margin: 0 auto;
-  display: flex;
+.about{
+  display:block;
 
   justify-content: space-around
 }
+
 .about-me h2{
   color: orangered;
-  font-size: 50px;
+ 
   text-transform: capitalize;
   margin-bottom: 20px;
   font-style: italic;
   letter-spacing: 1px;
 }
+
+/* Services page styling */
 .services{
   background-color: bisque;
+  padding: 20px;
 }
 .title{
   text-align: center;
@@ -194,9 +180,11 @@ margin-bottom: 20px;
   background-color: aliceblue;
   color: black;
 }
+
+/* project page styling starts here */
 .projects{
   background-color: bisque;
-
+padding: 20px;
 }
 .myprojects{
   display: grid;
@@ -207,14 +195,33 @@ color: white;
 cursor: pointer;
 
 }
+
+.main-three{
+ padding-top: 50px;
+  text-align: center;
+  color: orangered;
+
+}
+.main-three p{
+  padding: 30px;
+  color: black;
+  font-size: 20px;
+  font-style: italic;
+}
+.box{
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
 .box img{
-  width: 480px;
-margin:auto;
-padding: 30px;
+  width: 400px;
+margin:20px;
+
 border-radius: 10px;
 transition: all 0.30s;
 transform: translateX(-8px);
 }
+
 .box p{
   color: orangered;
   font-style: italic;
@@ -230,6 +237,7 @@ transform: translateX(-8px);
   margin-bottom: 15px;
   
 }
+/* contact page styling */
 .contact1{
   background-image: url(./background.jpeg);
 background-size: cover;
@@ -241,11 +249,11 @@ grid-template-columns: repeat(2,2fr);
 align-items: center;
 grid-gap: 3rem;
 opacity: 0.6;
-
+height:100vh
 }
 .contact-img img{
-  max-width: 100%;
-  width:700px;
+  max-width: 100%; 
+  width:700px; 
   height: auto;
   border-radius: 10px;
 }
@@ -255,14 +263,36 @@ position: relative;
 
 .form1 form input,
 form textarea{
-width: 100%;
+
 padding: 20px;
 border: none;
 outline: none;
 margin-bottom: 0.5rem;
-
+border-radius: 10px;
 }
 .form1,.form1 h2{
   margin: 30px;
+}
+/* Responsive layout */
+@media screen and (max-width: 280px) {
+
+  .about img{
+    height:50px;
+    width:30%;
+  
+  }
+ .content{ 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  }
+
+  
+
+  .main{
+   
+    flex-direction: column;
+}
 }
 
