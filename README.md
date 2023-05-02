@@ -1,9 +1,11 @@
 
-# 01 HTML and CSS:aMY PORTFOLIO
+# 01 HTML and CSS:MY PORTFOLIO
 
 ## Description:
 
-Refactoring existing code to meet a certain set of accessibility standards so that our website is optimized for search engines.Acceptance Criteria will provide brief summary about what i have done to make this website more accessible.
+AS AN employer
+I WANT to view a potential employee's deployed portfolio of work samples
+SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
 
 ## Acceptance Criteria
 
@@ -23,6 +25,8 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 
 ## Mockup
+My portfolio mockup
+<img src="./styles/assets/mockup,png" alt="mockup">
 
 
 ## License
@@ -32,5 +36,5 @@ MIT license
 Refactor existing code by Rajni bala
 
 ## Deployment
-
+Link for my Deployed website:
 

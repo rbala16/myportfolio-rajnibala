@@ -2,7 +2,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-font-family: sans-serif;
+
 }
 
 html {
@@ -14,16 +14,17 @@ body {
   line-height: 1;
   font-family: sans-serif;
 }
-
+/* navigation bar */
 nav{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
   padding: 30px 10px ;
   margin-left: 20px;
   margin-right: 70px;
-}
 
+}
 h1{
   color: red;
   font-style: oblique;
@@ -36,6 +37,15 @@ input{
   border:2px solid black;
   
 }
-h4,h3{
+h4,h3,h2{
   color: white;
+}
+/* footer  */
+footer{
+  text-align: center;
+  padding: 40px;
+  background-color: black;
+  color: aliceblue;
+  font-weight: bolder;
+  font-style: italic;
 }
