@@ -273,7 +273,7 @@ border-radius: 10px;
 .form1,.form1 h2{
   margin: 30px;
 }
-/* Responsive layout */
+/* Responsive layout for phones */
 @media screen and (max-width: 280px) {
 
   .about img{
