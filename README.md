@@ -26,7 +26,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Mockup
 My portfolio mockup
-<img src="./styles/assets/mockup,png" alt="mockup">
+<img src="./styles/assets/mockup.png" alt="mockup">
 
 
 ## License
@@ -37,4 +37,7 @@ Refactor existing code by Rajni bala
 
 ## Deployment
 Link for my Deployed website:
+rbala16.github.io/myportfolio-rajnibala
+
+
 
